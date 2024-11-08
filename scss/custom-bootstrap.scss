@@ -4,11 +4,17 @@
 
  $sfondo: rgb(20,20,20);
  $testo: rgb(128,128,128);
+ $setting:#333333;
+ $text:#CCCCCC;
 
  $nuovi-colori:(
 
     "primary":$sfondo,
     "warning":$testo,
+    "success" :$setting,
+    "danger":$text
+
+
  );
 
  $theme-colors :map-merge($theme-colors , $nuovi-colori);
