@@ -1,0 +1,16 @@
+//versione personalizzata 
+@import "./functions";
+@import"./variables";
+
+ $sfondo: rgb(20,20,20);
+ $testo: rgb(128,128,128);
+
+ $nuovi-colori:(
+
+    "primary":$sfondo,
+    "warning":$testo,
+ );
+
+ $theme-colors :map-merge($theme-colors , $nuovi-colori);
+
+ @import "./bootstrap.scss" 
